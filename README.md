@@ -14,7 +14,7 @@ pip install -r requirements.txt
 
 We provide a simple integration for the `transformers` library. The LLaMA, Mistral and other similar models should be supported. To load the model with contrastive decoding algorithm, you can use the following code:
 ```python
-from utils.setup_models import setup_models
+from utils.setup_models import setup_model
 from transformers import LlamaForCausalLM
 model = setup_model(
     algorithm='sl-h', # ['direct', 'vanilla', 'dola', 'sl-h', 'sl-d']
