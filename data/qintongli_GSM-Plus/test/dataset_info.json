@@ -1,0 +1,62 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "gsm-plus",
+  "dataset_size": 12464146,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/qintongli/GSM-Plus@363e9b4d9d5962fd6cd9cf51a0ecbbe37f3a6ae3/gsmplus_test.jsonl": {
+      "num_bytes": 13661658,
+      "checksum": null
+    }
+  },
+  "download_size": 13661658,
+  "features": {
+    "question": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "solution": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "answer": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "perturbation_type": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "seed_question": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "seed_solution": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "seed_answer": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 26125804,
+  "splits": {
+    "test": {
+      "name": "test",
+      "num_bytes": 12464146,
+      "num_examples": 10552,
+      "dataset_name": "gsm-plus"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

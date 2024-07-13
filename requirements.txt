@@ -1,0 +1,12 @@
+accelerate
+datasets==2.14.7
+huggingface-hub==0.22.2
+numpy
+protobuf==4.24.4
+pyarrow==14.0.2
+safetensors==0.4.2
+tokenizers==0.15.2
+torch==2.1.2
+torchaudio==2.1.2
+torchvision==0.16.2
+transformers==4.39.3
