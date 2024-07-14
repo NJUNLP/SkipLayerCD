@@ -37,12 +37,7 @@ To replicate the experiments conducted in our paper, you can use the following c
 ```sh
 bash run.sh
 ```
-Note: The result can be different due to the numerical presicion and different evaluation environment. To get more similar result of our paper, you can enable the FP32 inference (see `ENABLE_FP32` in `run.sh`).
+Note: The result can be different due to the numerical presicion and different evaluation environment. To get more similar result to our paper, you can enable the FP32 inference (see `ENABLE_FP32` in `run.sh`).
 
 The prediction results will be located in `eval/outputs`. The accuracy of the results can be compute by the script `compute_accuracy.py`.
 
-## Citation
-If you find this repository helpful, feel free to cite our paper.
-```bibtex
-stay tuned
-```
