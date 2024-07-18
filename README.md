@@ -1,7 +1,7 @@
 # Multilingual Contrastive Decoding via Language-agnostic Layers Skipping
 
 ## Overview
-This repository shares the code and data of our latest work [Multilingual Contrastive Decoding via Language-agnostic Layers Skipping](https://arxiv.org/abs/xxx).
+This repository shares the code and data of our latest work [Multilingual Contrastive Decoding via Language-agnostic Layers Skipping](https://arxiv.org/abs/2407.10795).
 
 In this work, we find a critical problem of the recent amateur-free contrastive decoding method, DoLa, while working in non-English languages.
 Then, we purpose a better amateur-free contrastive decoding approach, Skip Layer, and achieve significant performance improve on both English and Multilingual reasoning benchmarks.
@@ -41,3 +41,16 @@ Note: The result can be different due to the numerical presicion and different e
 
 The prediction results will be located in `eval/outputs`. The accuracy of the results can be compute by the script `compute_accuracy.py`.
 
+## Citation
+If you find this repository helpful, feel free to cite our paper.
+```bibtex
+@misc{zhu2024multilingualcontrastivedecodinglanguageagnostic,
+      title={Multilingual Contrastive Decoding via Language-Agnostic Layers Skipping}, 
+      author={Wenhao Zhu and Sizhe Liu and Shujian Huang and Shuaijie She and Chris Wendler and Jiajun Chen},
+      year={2024},
+      eprint={2407.10795},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2407.10795}, 
+}
+```
