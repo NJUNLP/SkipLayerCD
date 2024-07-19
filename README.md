@@ -44,13 +44,10 @@ The prediction results will be located in `eval/outputs`. The accuracy of the re
 ## Citation
 If you find this repository helpful, feel free to cite our paper.
 ```bibtex
-@misc{zhu2024multilingualcontrastivedecodinglanguageagnostic,
-      title={Multilingual Contrastive Decoding via Language-Agnostic Layers Skipping}, 
-      author={Wenhao Zhu and Sizhe Liu and Shujian Huang and Shuaijie She and Chris Wendler and Jiajun Chen},
-      year={2024},
-      eprint={2407.10795},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2407.10795}, 
+@article{zhu2024multilingual,
+  title={Multilingual Contrastive Decoding via Language-Agnostic Layers Skipping},
+  author={Zhu, Wenhao and Liu, Sizhe and Huang, Shujian and She, Shuaijie and Wendler, Chris and Chen, Jiajun},
+  journal={arXiv preprint arXiv:2407.10795},
+  year={2024}
 }
 ```
